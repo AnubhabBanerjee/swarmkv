@@ -1,4 +1,4 @@
-**Copyright (c) 2026 Anubhab Banerjee (AnubhabBanerjee/swarm-kv)**  
+**Copyright (c) 2026 Anubhab Banerjee (AnubhabBanerjee/swarmkv)**  
 **All rights reserved. No part of this repository may be used, redistributed, or modified in any form or by any means without the prior written permission of the author.**
 
 ---
