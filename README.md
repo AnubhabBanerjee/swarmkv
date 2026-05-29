@@ -42,7 +42,7 @@ Designed for a **local developer loop** first; GPU offload inside `llama.cpp` re
 ## ⚙️ Installation
 
 ```bash
-git clone <your-repo-url> swarm-kv
+git clone <github-repo-url> swarm-kv
 cd swarm-kv
 
 # Populate llama.cpp (submodule OR manual clone into third_party/llama.cpp)
