@@ -2,6 +2,9 @@
 **All rights reserved. No part of this repository may be used, redistributed, or modified in any form or by any means without the prior written permission of the author.**
 
 ---
+<img width="1536" height="1024" alt="swarmkv-overview" src="https://github.com/user-attachments/assets/ab4c08f0-6fa5-42f8-95cd-08a704a3093a" />
+
+---
 
 # 🚀 SwarmKV: Shared-Prefix Runtime for Long-Context Analytical Pipelines
 
