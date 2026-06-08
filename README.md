@@ -8,9 +8,16 @@
 
 # 🚀 SwarmKV: Shared-Prefix Runtime for Long-Context Analytical Pipelines
 
-> Single-process **C++20** orchestration over **llama.cpp** with DAG-ordered stages, **copy-on-fork** host KV buffers, and **RoPE-aware** branch offsets—without pretending an unsupported upstream KV “bind” API exists.
+> Single-process **C++20** orchestration over **llama.cpp** with DAG-ordered stages, **copy-on-fork** host KV buffers, and **RoPE-aware** branch offsets—without pretending an unsupported upstream KV “bind” API exists. **SwarmKV** is a systems-style inference **runtime skeleton** for *sequential* analytical graphs: **prefill once**, then run branch decodes whose **batch positions** continue after the shared prefix. It is **not** a Python agent framework and **not** a multi-tenant serving stack; it is deliberately scoped so you can **build, run, and reason about** pipeline-level KV reuse on one machine.
 
-**SwarmKV** is a systems-style inference **runtime skeleton** for *sequential* analytical graphs: **prefill once**, then run branch decodes whose **batch positions** continue after the shared prefix. It is **not** a Python agent framework and **not** a multi-tenant serving stack; it is deliberately scoped so you can **build, run, and reason about** pipeline-level KV reuse on one machine.
+**This repository is Part 3** of the *Production-Grade Agentic Inference* series (*Towards Data Science*). Please see below for other parts in this series.
+
+## 🔗 Series links
+
+- **Part 1 — this repository**
+- **Part 2 — Kube-TimeSlice-Profiler:** `https://github.com/AnubhabBanerjee/Kube-Timeslice-Profiler`
+- **Part 3 — CUDA-TopK-Retrieval**`https://github.com/AnubhabBanerjee/CUDA-TopK-Retrieval`
+- **Part 4 — ILCP (future):** persist agent state across hand-offs (not implemented here)
 
 ## 🧠 System Architecture
 
