@@ -10,7 +10,7 @@
 
 > Single-process **C++20** orchestration over **llama.cpp** with DAG-ordered stages, **copy-on-fork** host KV buffers, and **RoPE-aware** branch offsets—without pretending an unsupported upstream KV “bind” API exists. **SwarmKV** is a systems-style inference **runtime skeleton** for *sequential* analytical graphs: **prefill once**, then run branch decodes whose **batch positions** continue after the shared prefix. It is **not** a Python agent framework and **not** a multi-tenant serving stack; it is deliberately scoped so you can **build, run, and reason about** pipeline-level KV reuse on one machine.
 
-**This repository is Part 3** of the *Production-Grade Agentic Inference* series (*Towards Data Science*). Please see below for other parts in this series.
+**This repository is Part 1** of the *Production-Grade Agentic Inference* series (*Towards Data Science*). Please see below for other parts in this series.
 
 ## 🔗 Series links
 
