@@ -14,10 +14,10 @@
 
 ## 🔗 Series links
 
-- **Part 1 — this repository**
-- **Part 2 — Kube-TimeSlice-Profiler:** `https://github.com/AnubhabBanerjee/Kube-Timeslice-Profiler`
-- **Part 3 — CUDA-TopK-Retrieval**`https://github.com/AnubhabBanerjee/CUDA-TopK-Retrieval`
-- **Part 4 — ILCP (future):** persist agent state across hand-offs (not implemented here)
+- **Part 1 — this repository** (Full deep-dive: `https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/`)
+- **Part 2 — Kube-TimeSlice-Profiler:** (Repository link: `https://github.com/AnubhabBanerjee/Kube-Timeslice-Profiler`)
+- **Part 3 — CUDA-TopK-Retrieval** (Repository link: `https://github.com/AnubhabBanerjee/CUDA-TopK-Retrieval`)
+- **Part 4 — ILCP (future):** persist agent state across hand-offs (not implemented yet)
 
 ## 🧠 System Architecture
 
