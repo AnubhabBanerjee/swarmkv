@@ -28,7 +28,7 @@ Repository link: `https://github.com/AnubhabBanerjee/Kube-Timeslice-Profiler`
 
 - **Part 3 — CUDA-TopK-Retrieval**
 
-Full deep-dive: `TBA`
+Full deep-dive: `https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/`
 
 Repository link: `https://github.com/AnubhabBanerjee/CUDA-TopK-Retrieval`
 
@@ -36,7 +36,7 @@ Repository link: `https://github.com/AnubhabBanerjee/CUDA-TopK-Retrieval`
 
 Full deep-dive: `TBA`
 
-Repository link: `TBA`
+Repository link: `https://github.com/AnubhabBanerjee/ILCP-for-Agents`
 
 
 ## 🧠 System Architecture
